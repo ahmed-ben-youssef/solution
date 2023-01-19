@@ -3867,6 +3867,7 @@ option {
 }
 
 .header-right {
+  margin-right: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
