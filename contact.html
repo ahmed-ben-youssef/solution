@@ -260,6 +260,8 @@
     <div class="container">
         <form class="contact-form" action="https://formsubmit.co/ahmedbenyoussef64@gmail.com" method="POST">
             <div class="row justify-content-center mb-25-none">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/home.html">
+                <input type="hidden" name="_template" value="table">
                 <div class="col-xl-6 col-lg-6 form-group">
                     <label>Enter Name</label>
                     <input type="text" name="name" class="form--control" placeholder="Jhon david smith">
@@ -275,15 +277,15 @@
                 <div class="col-xl-6 col-lg-6 form-group">
                     <label>Select Subject</label>
                     <div class="contact-select">
-                        <select class="form--control">
+                        <input type="text" name="subject" class="form--control" placeholder="site web">
+                        <!-- <select class="form--control">
                             <option value="1">Creation de site web</option>
                             <option value="2">Creation de contenu</option>
                             <option value="3">Sponsoring</option>
                             <option value="4">Identité de marque</option>
-                        </select>
+                        </select> -->
                     </div>
                 </div>
-                <input type="hidden" name="_next" value="thankyou.html">
                 <div class="col-xl-12 col-lg-12 form-group">
                     <label>Write Message</label>
                     <textarea name="message" class="form--control" placeholder="Write Here ..."></textarea>
@@ -404,7 +406,9 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div class="footer-widget">
                             <h5 class="title">Sign up Newsletter</h5>
-                            <form class="footer-subscribe-form">
+                            <form class="footer-subscribe-form"action="https://formsubmit.co/ahmedbenyoussef64@gmail.com" method="POST">
+                                <input type="hidden" name="_template" value="table">
+                                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
                                 <input type="email" class="form--control" placeholder="Enter Mail">
                                 <button type="submit"><i class="las la-angle-right"></i></button>
                             </form>
